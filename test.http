@@ -1,0 +1,25 @@
+###
+# @name test_posts_service
+POST http://localhost:4000/posts
+Content-Type: application/json
+
+{
+    "title": "Second post"
+}
+
+###
+# @name test_posts_service
+GET http://localhost:4000/posts
+
+###
+# @name test_comments_service
+POST http://localhost:4001/posts/123/comments
+content-type: application/json
+
+{
+    "content": "I am a comment"
+}
+
+###
+# @name test_posts_service
+GET http://localhost:4000/posts
