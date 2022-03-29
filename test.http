@@ -22,4 +22,4 @@ content-type: application/json
 
 ###
 # @name test_posts_service
-GET http://localhost:4000/posts
+GET http://localhost:4001/posts/df2dbbf5/comments
